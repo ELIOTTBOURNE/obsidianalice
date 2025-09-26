@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Lexend",
+        header: " IM Fell Great Primer",
         body: "Lexend",
         code: "IBM Plex Mono",
       },
