@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://obsidianalice.pages.dev/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     theme: {
       fontOrigin: "googleFonts",
@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Lexend",
         body: "Lexend",
-        code: "IBM Plex Mono",
+        code: "Lexend",
       },
       colors: {
         lightMode: {
@@ -68,7 +68,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
