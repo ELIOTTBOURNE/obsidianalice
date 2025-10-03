@@ -1,1 +1,0 @@
-**Normals are Perpendicular to a tangent**, we calculate them by using [[1.7 - Differentiation|Differentiation from first principles]] and coordinate points to calculate the tangent. From this point you can use calculate the normal's [[1.3 - Coordinate Geometry]] and by subbing in the other known coordinates.
